@@ -16,7 +16,7 @@ if (validEmail == true) {
   alert ('you can play');
 }
 else {
-  alert (' invalid e-mail');
+  alert ('invalid e-mail');
 }
 console.log(validEmail);
 
@@ -25,16 +25,16 @@ console.log(validEmail);
 var computer =  math.floor ( Math.random ( ) * 6 ) + 1 ;
 console.log (computer);
 
-var  angelo  =  matematica . floor ( Math . random ( ) * 6 )  +  1 ;
-console . log ( rocco ) ;
+var  angelo  =  math.floor ( Math . random ( ) * 6 )  +  1 ;
+console . log ( player ) ;
 
-var  messaggio  =  '' ;
-if  ( computer > rocco )  {
+var  message = '' ;
+if  ( computer > player )  {
   messaggio  =  'Ha vinto il computer' ;
-}  else  if  ( computer < rocco )  {
+}  else  if  ( computer < player )  {
   messaggio  =  'Hai vinto' ;
 }  else {
-  messaggio = 'il risultato è pari' ;
+  message = 'il risultato è pari' ;
 }
 
 console.log ( messaggio ) ;t
