@@ -25,7 +25,7 @@ console.log(validEmail);
 var computer =  math.floor ( Math.random ( ) * 6 ) + 1 ;
 console.log (computer);
 
-var  angelo  =  math.floor ( Math . random ( ) * 6 )  +  1 ;
+var  player  =  math.floor ( Math . random ( ) * 6 )  +  1 ;
 console . log ( player ) ;
 
 var  message = '' ;
@@ -37,5 +37,5 @@ if  ( computer > player )  {
   message = 'il risultato è pari' ;
 }
 
-console.log ( messaggio ) ;t
+console.log ( messaggio ) ;
 
